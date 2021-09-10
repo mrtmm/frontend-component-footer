@@ -75,6 +75,15 @@ class SiteFooter extends React.Component {
             />
           )}
         </div>
+        <a
+            className="footer-edx-logo"
+            href="https://open.edx.org"
+          >
+            <img 
+              src="https://files.edx.org/openedx-logos/open-edx-logo-tag.png"
+              alt="Powered by Open edX"
+              width="140"/>
+          </a>
       </footer>
     );
   }
